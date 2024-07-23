@@ -139,10 +139,10 @@ const innings = (team,bowl)=> {
         while(totalOvers--){
         sleepFor(2000)
 
+        let bowlers = players[bowl].bowler[i-1]
                 console.log(`Over # ${i++} started `);
                 sleepFor(1000);
             let player = players[team].batsmen[wkts]
-            let bowlers = players[bowl].bowler[i]
             
                console.log(`${player} to bat`);
                sleepFor(2000)
